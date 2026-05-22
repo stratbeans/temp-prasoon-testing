@@ -8,6 +8,7 @@ load_dotenv()
 
 # create a function to fetch temperature of a city
 def fetch_temperature(city):
+    return 100;
     api_key = os.getenv('OPENWEATHERMAP_API_KEY')
     url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api_key
     response = requests.get(url)
