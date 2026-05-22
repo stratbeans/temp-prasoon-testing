@@ -3,6 +3,6 @@
 </head>
 <body>
 Welcome to India - Bangalore 
-  <?php echo phpinfo(); ?>
+  <?php echo env('HOME'); ?>
 </body>
 </html>
