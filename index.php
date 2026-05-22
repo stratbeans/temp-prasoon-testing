@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-Welcome to India
+Welcome to India - Bangalore
   <? echo phpinfo(); ?>
 </body>
 </html>
