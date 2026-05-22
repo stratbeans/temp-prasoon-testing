@@ -3,5 +3,6 @@
 </head>
 <body>
 Welcome to India
+  <?phpinfo(); ?>
 </body>
 </html>
